@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MKFS-JAISALMER</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
@@ -11,18 +13,100 @@
   <nav id="top-nav">
     <div class="nav-wrapper blue">
       <div class="container">
-        <a href="#" class="brand-logo">MKFS-JAISALMER</a>
+        <a href="#" class="brand-logo">मदरसा कादरिया</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about">परिचय</a></li>
+          <li><a href="#motto">उद्देश्य</a></li>
+          <li><a href="#contact">संपर्क</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div style="height: 500px;"></div>
+  <section id="home">
+    <div class="container center">
+      <h1>मदरसा कादरिया फैजे सिकन्दरिया संस्थान, जैसलमेर</h1>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container center">
+      <h2>संस्था का परिचय</h2>
+      <p>मदरसा कादरिया फैजे सिकन्दरिया संस्थान, जैसलमेर एक गैर सरकारी, गैर राजनैतिक व गैर लाभकारी सवयंसेवी संस्थान हें | जिसका रजिस्ट्रेशन राजस्थान संस्था रजिस्टीकरण अधिनियम अधिनियम 1958 राजस्थान अधिनियम संस्था 28, 1958 के अंतर्गत रजिस्टीकृत हें | संस्थान के संस्थापक हाजी फ़तेह मोहम्मद (पूर्व जिला प्रमुख  जैसलमेर ) दवारा शिक्षा के पुनीत उद्देश्य के इस मदरसे की नीव दिनाक 17.01.2001 को रखी गई |</p>
+    </div>
+  </section>
+
+  <section id="motto">
+    <div class="container">
+      <h2>संस्था के उद्देश्य</h2>
+       <ol>
+         <li>
+           समाज में आर्थिक एवं सामाजिक रूप से पिछड़ी महिलाओ को रोजगार हेतु रोजगारोन्मुखी कोर्स में प्रशिक्षण प्रदान कर दक्ष करना |
+          </li>
+         <li>
+           बेरोजगार युवाओ को गुणवता कौशल पराशिक्षण में दक्ष करना |
+          </li>
+         <li>
+           मोजूदा कार्यबल की उत्पादकता में वुर्धि एवं देश की वास्तविक जरूरतों के साथ कौशल पर्शिक्षण सरेखित करना |
+          </li>
+         <li>
+          आज के वैज्ञानिक युग में बेसिक कंप्यूटर पाठ्यक्रम शिक्षण के माध्यम से विभिन्न कक्षाओ में अध्यनरत बालक-बालिकाओ को कम्पूटर शिक्षा में दक्ष करना |
+         </li>
+       </ol>
+    </div>
+  </section>
   
+
+  <!-- Contact Area -->
+  <section id="contact">
+    <div class="container">
+      <!-- Contact Info -->
+      <div>
+        <h3>संपर्क  करें</h3>
+        <p>पता: कादरिया मदरसा, ढिबा पाड़ा, जैसलमेर</p>
+        <p>ईमेल: mkfs.jaisalmer@gmail.com</p>
+        <p>फोन: 02992-294776</p>
+      </div>
+      <!-- Contact Form -->
+      <div>
+        <form method="post">
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="name" type="text" class="validate">
+                  <label for="name">नाम:</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">ईमेल:</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="phone" type="text" class="validate">
+                  <label for="phone">फ़ोन:</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="subject" type="text" class="validate">
+                  <label for="subject">विषय:</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="textarea" class="materialize-textarea"></textarea>
+                  <label for="textarea">विवरण</label>
+                </div>
+              </div>
+              <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+              </button>            
+            </form>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Area -->
   <footer class="page-footer blue">
     <div class="container">
       <div class="row">
@@ -43,8 +127,8 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-      © 2014 Copyright Text
-      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      © 2020 MKFS-JAISALMER
+      <a class="grey-text text-lighten-4 right" href="#!">Created By Dharmendra Kumar</a>
       </div>
     </div>
   </footer>
