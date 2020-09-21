@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>MKFS School, Jaisalmer | Our Mission</title>
+</head>
+<body>
+  <!-- Top Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">MKFS School</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="activity.html">Activity</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mission.html">Mission</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- contact form & contact map -->
+    <section id="contact" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Contact Us</h1>
+            <p>Please fill out the form below to contact us</p>
+            <form method="POST">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" class="form-control" name="name" placeholder="Enter Your Name...">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control" name="email" placeholder="Enter Your Email...">
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" class="form-control" name="subject" placeholder="Enter Your Subject...">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" class="form-control" rows="5" placeholder="Enter Your Message..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-block btn-primary">Submit</button>
+            </form>
+          </div>
+          <div class="col-md-6 g-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380.4458569898148!2d70.91330123590662!3d26.910578459167546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf24c5cd77d508d8f!2sDev-Jesana!5e1!3m2!1sen!2sin!4v1600679538786!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact info -->
+    <section id="contact-info" class=" text-center bg-dark text-white pt-3 pb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <i class="fas fa-hotel fa-2x"></i>
+            <h3>Address</h3>
+            <address>
+              Madarsa Kadriya Faize Sikandriya <br> Sin. Secondary School, <br> Ward No. 3, Dibba Para, Jaisalmer, Rajasthan (IN) PIN 345001 
+            </address>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-envelope fa-2x"></i>
+            <h3>Email</h3>
+            <p>mkfs.jaisalmer@gmail.com</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-phone fa-2x"></i>
+            <h3>Phone</h3>
+            <p>02992-294776</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer area -->
+  <footer id="footer-area">
+    <div class="bg-dark text-white mt-2">
+      <br>
+      <div class="container text-center">
+        <p>Copyright &copy; 2020 Madarasa Kadriya Faize Sikandriya Senior Secondary School, Jaisalmer</p>
+        <p>Created By, 
+          <a href="http://github.com/jesana" target="_blank" rel="noopener noreferrer"> 
+            Dharmendra Kumar
+          </a> Jaisalmer
+        </p>
+      </div>
+      <br>
+    </div>
+  </footer>
+
+  <!-- js-scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
